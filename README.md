@@ -4,4 +4,4 @@ The descriptions of thousands of companies can be converted into vectors and K-N
 `elasticsearch_all_operations_for_vectors.ipynb` shows all the different commands required to interact with the elasticsearch cluster on AWS. And also an example of the data being used is provided at the end.
 
 
-The `handler.py`, `requirements.txt`, `serverless.yml` files can be used to deploy a lambda function using the "Serverless Framework". This lambda function needs to be used along with AWS API gateway. In this code you can enter a registration number of the company and the code searches for the vector for that company and then perfroms KNN search and provides the top results.
+The `handler.py`, `requirements.txt`, `serverless.yml` files can be used to deploy a lambda function using the "Serverless Framework" (https://www.serverless.com/). This lambda function needs to be used along with AWS API gateway. In this code you can enter a registration number of the company and the code searches for the vector for that company and then perfroms KNN search and provides the top results.
